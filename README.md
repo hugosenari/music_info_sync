@@ -1,5 +1,4 @@
-# music_info_sync
-Music information Sync
+# Music Information Sync
 
 Main objective of this project is provide standards for music info sync across player/computers.
 
@@ -22,3 +21,15 @@ Main objective of this project is provide standards for music info sync across p
     - Android
   - DONE
     - NONE
+
+# Objects
+
+- Player
+  - Name
+  - Location
+- Music
+  - ID3...
+- Event
+  - Type
+  - #Music
+  - #Player
