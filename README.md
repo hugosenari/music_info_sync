@@ -29,6 +29,8 @@ Main objective of this project is provide standards for music info sync across p
   - Location
 - Music
   - ID3...
+  - MD5 (file-id)
+  - [Chromaprint](https://acoustid.org/fingerprinter) (fingerprint)
 - Event
   - Type
   - #Music
