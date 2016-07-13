@@ -25,13 +25,16 @@ Main objective of this project is provide standards for music info sync across p
 # Objects
 
 - Player
-  - Name
-  - Location
+  - Name ""
+  - Machine ""
 - Music
-  - ID3...
-  - MD5 (file-id)
-  - [Chromaprint](https://acoustid.org/fingerprinter) (fingerprint)
+  - [Fingerprint](https://acoustid.org/fingerprinter) ""
+  - [ID3](http://id3.org/) {}
+  - musicMD5 ["md5sum1", "md5sum2"...]
+  - Locations [URI, Machine:file:///home/user/music.mp3...]
 - Event
-  - Type
+  - Type "played"|"skiped"|"deleted"|"rated"|"changed"|"added"...
+  - Value
   - #Music
   - #Player
+  - Timestamp
